@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Ler dados do arquivo CSV
-df = pd.read_csv(r"C:\Users\Usuario\sprint_4\vehicles.csv")
+df = pd.read_csv("vehicles.csv")
+
 
 # Exibir as primeiras linhas do dataframe
 st.write("Preview dos dados:", df.head())
